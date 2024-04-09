@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ShopPoint
 
-## Available Scripts
+ShopPoint is a comprehensive e-commerce platform with a user-friendly interface and robust features for both users and administrators.
 
-In the project directory, you can run:
+## Features and Functionalities 😃
 
-### `yarn start`
+### User Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Full-Featured Shopping Cart**: Seamlessly add, remove, and manage items in your shopping cart.
+- **Product Reviews and Ratings**: Share and view feedback from other users to make informed purchase decisions.
+- **Filtering Options**: Easily sort products by category, price range, and other criteria for efficient browsing.
+- **Account Verification**: Enhance security with two-factor authentication via email for user accounts.
+- **Password Reset**: Hassle-free password recovery process for forgotten passwords.
+- **Token-Based Authentication**: Secure user authentication using tokens for seamless login.
+- **Product Search**: Quickly find desired items with a robust search feature.
+- **User Profile**: Access your order history and manage account details from your user profile.
+- **Save and Delete Cart**: Conveniently save or remove items for later purchase.
+- **Quantity Selection**: Choose the quantity of items to order based on your needs.
+- **Checkout Process**: Streamlined process for shipping, payment method selection, and order confirmation.
+- **Order Summary**: View a comprehensive summary of your order before finalizing the purchase.
+- **Payment Integration**: Securely complete transactions with PayPal, credit card, and Esewa payment options.
+- **Database Seeder**: Populate the database with sample data for products, users, reviews, and orders.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### New Features (Added)
 
-### `yarn test`
+- **Print User Orders as PDF**: Generate PDF documents for easy reference and record-keeping of user orders.
+- **Print User List as PDF**: Conveniently export user lists into PDF format for administrative purposes.
+- **Print Order List as PDF**: Generate PDF documents containing detailed order information for reporting and analysis.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Admin Features
 
-### `yarn build`
+- **Product Management**: Efficiently manage products, including adding, editing, and deleting items from the inventory.
+- **User Management**: Administer user accounts, including registration, authentication, and profile management.
+- **Order Management**: Monitor and process orders, with options for order details and status updates.
+- **Mark Orders as Delivered**: Streamline order fulfillment by marking orders as delivered upon completion.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack 💻
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- React.js
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Material UI
+- React Bootstrap
+- Redux
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API 👨‍💻
 
-### `yarn eject`
+- PayPal API
+- Esewa API
+- Send Grid API
+- Cloudinary API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation ⚡
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+   ```bash
+   git clone https://github.com/SajidAnTechie/ShopPoint
+   cd ShopPoint
